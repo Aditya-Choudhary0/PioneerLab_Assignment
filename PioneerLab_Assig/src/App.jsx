@@ -1,6 +1,7 @@
 
 import './App.css'
 import CryptocurrencyCards from './Components/CryptoCurrency'
+import MetaWallet from './Components/MetaWallet'
 import SideNavBar from './Components/Navbar'
 import PopulationGraph from './Components/PopulationGraph'
 
@@ -19,7 +20,7 @@ function App() {
       <div className='content'>
           <div className='graph'><PopulationGraph/></div>
           <div className='wallet'>
-            I am the currency
+            <MetaWallet />
           </div>
           <div className='currency'>
             <CryptocurrencyCards/>
