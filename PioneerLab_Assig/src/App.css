@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin-left: 200px;
+  width: 100%;
+  height: 90vh;
+}
+
+.App {
+  width: 98%;
+  /* border: solid 1px white; */
+  padding: 5px;
+  height: 100%;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.graph {
+  grid-row: 1;
+}
+
+.wallet {
+  grid-row: 1;
+}
+
+.currency {
+  grid-row: 2;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px 0px 30px;
+}
+
+.heading-name {
+  padding: 0;
+  line-height: 0.1;
+  margin: 0;
+}
+
+.heading-button {
+  background-color: #25b62b;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+  .graph {
+    grid-row: 1;
+  }
+  
+  .wallet {
+    grid-row: 2;
+  }
+  
+  .currency {
+    grid-row: 3;
+  }
+
+}

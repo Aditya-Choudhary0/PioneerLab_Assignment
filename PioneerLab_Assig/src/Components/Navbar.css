@@ -1,0 +1,142 @@
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -200px;
+    background-color: #272727;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+    text-align: left;
+  }
+
+  .search {
+    margin: 25px 0px 20px 10px;
+    padding: 5px;
+    width: 170px;
+    height: 25px;
+    border: solid 0px;
+    border-radius: 8px;
+  }
+  
+  .sidenav.open {
+    left: 0;
+  }
+  
+  .sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #b8b8b8;
+    display: block;
+  }
+
+  .notification {
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+  }
+  
+  .sidenav a:hover {
+    color: #2e7e33;
+  }
+  
+  .sidenav .active {
+    color: #56db5f;
+    background-color: #535353;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    color: #858989;
+    font-size: 24px;
+    transition: 0.5s;
+  }
+  
+  .icon.open {
+    left: 210px;
+  }
+  
+  .icon:hover {
+    color: #44a84b;
+  }
+  
+  .logoDiv img {
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  
+  .logoDiv {
+    text-align: left;
+  }
+
+  .population-graph {
+    padding: 20px;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    border: solid 2px #505050;
+  }
+
+  .graph-container {
+    width: 95%;
+    height: 250px;
+  }
+
+  .cryptocurrency-cards {
+    display: grid;
+    gap: 10px;
+  }
+
+  .cryptocurrency-card {
+      grid-row: 1;
+      margin: 10px;
+      background-color: #2b2b2b;
+      border: solid 2px #505050;
+      padding: 0px 10px 0px 10px;
+      border-radius: 10px;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+  }
+
+  .button {
+    background-color: #25b62b;
+  }
+
+  @media screen and (max-width: 900px) {
+    .sidenav {
+      left: -200px;
+    }
+  
+    .icon {
+      display: block;
+    }
+      
+    #usd {
+      grid-row: 1;
+    }
+
+    #gbp {
+      grid-row: 2;
+    }
+
+    #eur {
+      grid-row: 3;
+    }
+
+  }
+
+
+
+  
