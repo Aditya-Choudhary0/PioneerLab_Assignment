@@ -56,16 +56,27 @@
 
 @media screen and (max-width: 900px) {
 
+  .content {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+  }
+  
   .graph {
     grid-row: 1;
+    grid-column: 1 / span 3;
   }
   
   .wallet {
     grid-row: 2;
+    grid-column: 1/ span 3;
   }
   
   .currency {
     grid-row: 3;
+    grid-column: 1 / span 3;
   }
 
 }
