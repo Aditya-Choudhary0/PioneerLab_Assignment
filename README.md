@@ -1,5 +1,7 @@
 # PioneerLab_NavBar
 
+It is a simple web application to see some of the data in one or the other form which is a chart, or card.
+
 ### Deployed link
 
 https://pioneerlab-assignment.netlify.app/
@@ -58,8 +60,8 @@ To set up the project on your local system, follow these steps:
       - Utilize React JS and any relevant libraries (e.g., Chart.js) to create the graph.
       - Display the population data for different nations.
       - Provide appropriate labels, legends, and axis titles for the graph.
-      - 
-    ![graph](https://github.com/Aditya-Choudhary0/PioneerLab_Assignment/assets/113030961/c906cdc2-3a02-48a5-8726-60f1b8bb09da)
+    
+![graph](https://github.com/Aditya-Choudhary0/PioneerLab_Assignment/assets/113030961/c906cdc2-3a02-48a5-8726-60f1b8bb09da)
 
   2. Utilizing the Chart.js library to create the chart based on the data provided in the API.  
 
