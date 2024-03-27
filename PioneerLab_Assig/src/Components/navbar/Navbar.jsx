@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import logo from '../assets/logo.png' 
+import logo from '../../assets/logo.png' 
 
 const SideNavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(window.innerWidth > 900);

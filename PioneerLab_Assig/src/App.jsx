@@ -1,9 +1,9 @@
 
 import './App.css'
-import CryptocurrencyCards from './Components/CryptoCurrency'
-import MetaWallet from './Components/MetaWallet'
-import SideNavBar from './Components/Navbar'
-import PopulationGraph from './Components/PopulationGraph'
+import CryptocurrencyCards from './Components/crypto/CryptoCurrency'
+import MetaWallet from './Components/wallet/MetaWallet'
+import SideNavBar from './Components/navbar/Navbar'
+import PopulationGraph from './Components/graph/PopulationGraph'
 
 function App() {
   

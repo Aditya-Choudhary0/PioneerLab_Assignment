@@ -44,8 +44,8 @@
 
 .heading-name {
   padding: 0;
-  line-height: 0.1;
   margin: 0;
+  color: #b8ffba;
 }
 
 .heading-button {
@@ -53,8 +53,11 @@
 }
 
 
-
 @media screen and (max-width: 900px) {
+
+  #root {
+    margin-left: 2%;
+  }
 
   .content {
     display: grid;

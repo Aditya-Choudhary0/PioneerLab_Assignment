@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Chart as Chartjs } from 'chart.js/auto';
 import { Line } from 'react-chartjs-2';
-import './Navbar.css';
+import './graph.css';
 
 const PopulationGraph = () => {
   const [populationData, setPopulationData] = useState(null);

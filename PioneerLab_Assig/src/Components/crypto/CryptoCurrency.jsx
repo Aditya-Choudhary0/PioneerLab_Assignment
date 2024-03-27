@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './crypto.css'
 
 const CryptocurrencyCard = ({ currency, symbol }) => {
   const [price, setPrice] = useState(null);

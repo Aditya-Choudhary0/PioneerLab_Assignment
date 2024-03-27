@@ -1,0 +1,15 @@
+.meta-wallet {
+    padding: 15px;
+    background-color: #2b2b2b;
+    border: solid 2px #505050;
+    border-radius: 10px;
+    color: #cfffd0;
+  }
+
+  .connect {
+    background-color: #25b62b;
+  }
+
+  .message {
+    color: rgb(255, 125, 125);
+  }

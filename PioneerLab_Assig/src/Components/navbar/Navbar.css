@@ -77,58 +77,6 @@
     text-align: left;
   }
 
-  .population-graph {
-    padding: 20px;
-    background-color: #2b2b2b;
-    border-radius: 10px;
-    border: solid 2px #505050;
-  }
-
-  .graph-container {
-    width: 95%;
-    height: 250px;
-  }
-
-  .cryptocurrency-cards {
-    display: grid;
-    gap: 10px;
-  }
-
-  .cryptocurrency-card {
-      grid-row: 1;
-      margin: 10px;
-      background-color: #2b2b2b;
-      border: solid 2px #505050;
-      padding: 0px 10px 0px 10px;
-      border-radius: 10px;
-  }
-
-  .info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin:10px;
-  }
-
-  .button {
-    background-color: #25b62b;
-  }
-
-  .meta-wallet {
-    padding: 15px;
-    background-color: #2b2b2b;
-    border: solid 2px #505050;
-    border-radius: 10px;
-  }
-
-  .connect {
-    background-color: #25b62b;
-  }
-
-  .message {
-    color: rgb(255, 125, 125);
-  }
-
 
   @media screen and (max-width: 900px) {
     .sidenav {
@@ -137,18 +85,6 @@
   
     .icon {
       display: block;
-    }
-      
-    #usd {
-      grid-row: 1;
-    }
-
-    #gbp {
-      grid-row: 2;
-    }
-
-    #eur {
-      grid-row: 3;
     }
 
   }

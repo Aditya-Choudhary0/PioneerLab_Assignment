@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Web3 from 'web3';
+import './wallet.css'
 
 const MetaWallet = () => {
     const [statusMessage, setStatusMessage] = useState('');

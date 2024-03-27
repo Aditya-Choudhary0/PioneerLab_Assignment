@@ -1,0 +1,13 @@
+.population-graph {
+    padding: 20px;
+    color: #cfffd0;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    border: solid 2px #505050;
+  }
+
+  .graph-container {
+    width: 95%;
+    height: 250px;
+  }
+
